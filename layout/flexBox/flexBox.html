@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MS1 FlexBox Design</title>
+  <link rel="stylesheet" href="./fbstyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Audiowide&family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="all-work">
+    <header>
+      <div class="header-div">
+        <h1>Flex Box - Design</h1>
+      </div>
+    </header>
+    <main>
+      <div class="box acima"> 
+        <img src="./red-panda.jpg" alt="a cute red panda">
+      </div>
+      <div class="box meio"> 
+        <p>O panda-vermelho ou panda-ruivo, também conhecido como raposa-de-fogo ou gato-de-fogo (nome científico: Ailurus fulgens; do grego ailurus, gato; e do latim fulgens, brilhante), é um pequeno mamífero arborícola e a única espécie do gênero Ailurus. Pertence à família Ailuridae, mas já foi classificado nas famílias Procyonidae (guaxinins) e Ursidae (ursos).</p>
+        <p>O panda-vermelho é nativo das regiões montanhosas do Himalaia e do sul da China, e está associado às florestas temperadas de altitude e a bambuzais. Possui uma coloração castanho-avermelhada característica, cauda comprida e felpuda e um andar gingado devido ao encurtamento dos membros dianteiros. É um animal solitário, territorialista e de hábito crepuscular e noturno. A sua alimentação é principalmente composta por bambu; entretanto, por ser omnívoro, pode ingerir ovos, pássaros, insetos e pequenos mamíferos.</p>
+      </div>
+    </main>
+    <footer>
+      <div class="abaixo"> Grazie Mille - Arrivederci</div>
+      <p>ms1 © <span id="current-year"></span></p>
+    </footer>
+  </div>
+  <script>
+    const thisYear = document.querySelector('#current-year');
+    thisYear.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
