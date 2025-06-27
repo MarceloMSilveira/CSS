@@ -1,0 +1,24 @@
+.flex-container{
+  display: flex;
+  background-color: antiquewhite;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis: 250px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.item1{
+  /* flex-basis: 0%; */
+}
+
+.item2{
+  flex-basis: 400px;
+}
+
+.item6{
+  /* flex-basis: 0%; */
+}
