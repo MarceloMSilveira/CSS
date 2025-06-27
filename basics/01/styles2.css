@@ -1,0 +1,16 @@
+.notebox{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.notebox.warning{
+  background-color: orange;
+}
+
+.notebox.danger{
+  background-color: red;
+  color: white;
+}
+
+.danger{
+  color: red;
+}

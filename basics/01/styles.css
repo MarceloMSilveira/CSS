@@ -1,0 +1,11 @@
+h1 + ul + p {
+  color: red;
+}
+
+.bigDiv{
+  font-family: fantasy;
+}
+
+.bigDiv > li {
+  color: brown;
+}
