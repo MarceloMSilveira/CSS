@@ -1,6 +1,7 @@
 body{
   max-width: 800px;
   margin: 20px auto;
+  font-family: 'Nunito', sans-serif;
 }
 .all-work{
   display: flex;
@@ -46,4 +47,6 @@ p{
 button{
   /* width: 100%; */
   flex-grow: 1;
+  line-height: 1.5;
+  font-size: 18px;
 }
