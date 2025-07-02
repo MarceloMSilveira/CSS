@@ -1,0 +1,26 @@
+.box{
+  width: 400px;
+  height: 400px;
+  background-color: antiquewhite;
+  padding-top: 10px;
+}
+.float{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.float1 {
+  float: left;
+}
+
+.float2 {
+  float: right;
+}
+
+p{
+  margin-top: 10px;
+}

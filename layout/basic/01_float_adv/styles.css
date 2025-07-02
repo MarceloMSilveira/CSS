@@ -1,0 +1,21 @@
+.box {
+  float: left;
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(207 232 220);
+  padding: 1em;
+}
+
+
+.wrapper {
+  background-color: rgb(148 255 172);
+  padding: 10px;
+  color: purple;
+  display: flow-root;
+}
+
+p:nth-of-type(2){
+  clear: left;
+}
