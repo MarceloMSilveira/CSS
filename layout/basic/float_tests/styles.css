@@ -11,16 +11,9 @@
   color: white;
   padding: 10px;
   margin: 10px;
-}
-
-.float1 {
   float: left;
 }
 
-.float2 {
-  float: right;
-}
-
-p{
-  margin-top: 10px;
+.below{
+  clear: left;
 }
