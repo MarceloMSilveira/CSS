@@ -1,14 +1,17 @@
-.container{
-  display: flex;
-  flex-direction: column;
+body {
+  width: 500px;
+  margin: 0 auto;
 }
 
-img{
-  width: 20%;
+p {
+  background: rgb(255 84 104 / 30%);
+  border: 2px solid rgb(255 84 104);
+  padding: 10px;
+  margin: 10px;
 }
 
-img:first-of-type{
-  width: 30%;
-  display: block;
-  background-color: aquamarine;
+span {
+  background: white;
+  border: 1px solid black;
 }
+
