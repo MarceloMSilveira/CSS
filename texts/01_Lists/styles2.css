@@ -1,0 +1,21 @@
+ul{
+ /* list-style-type: none;  */
+ list-style-position: inside;
+ list-style-type: none;
+}
+
+ul li {
+  padding-left: 20px;
+  background-image: url(./star.svg);
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 13px;
+}
+
+p{
+  text-indent: 40px;
+}
+
+p, li {
+  line-height: 1.5rem;
+}

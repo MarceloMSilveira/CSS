@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+  background-color: white;
+  
+  /* Fallback: apenas a imagem do topo, para navegadores sem suporte a múltiplos backgrounds */
+  background-image: url(./top-image.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  
+  background-image: 
+    linear-gradient(to bottom, 
+      rgba(0, 0, 0, 0.3) 0%,    /* escuro no topo */
+      rgba(0, 0, 0, 0.0) 30%,   /* transparente na parte superior do meio */
+      rgba(0, 0, 0, 0.0) 70%,   /* transparente na parte inferior do meio */
+      rgba(0, 0, 0, 0.3) 100%   /* escuro no fundo */
+    ),
+    url(./top-image.png),
+    url(./bottom-image.png);
+
+  background-repeat: no-repeat;
+  background-position: left top, left top, right bottom;
+
+  border-bottom: 1mm solid red;
+  border-top: 1mm solid red;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-image: url(./logo.png);
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5)); /*sombra sutil */
+}
+
+/* Your CSS below here */

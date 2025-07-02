@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper > * {
+  margin: 20px;
+}
+
+.box {
+  border: 5px solid darkblue;
+  width: 200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box1{
+  background-color: antiquewhite;
+}
+
+.img1{
+  width: 200px;;
+}
+
+.box > img[alt='balloons']{
+  object-position: 0 5px;
+}
+
+
+
+.wrapper2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper2 > * {
+  margin: 20px;
+}
+
+.box2 {
+  border: 5px solid darkblue;
+  width: 200px;
+  height: 200px;
+}
+
+.box2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
+  object-position: -100px 0px;
+}
+
+.contain {
+  object-fit: contain;
+}
+

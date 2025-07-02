@@ -1,0 +1,24 @@
+.box{
+  margin: 25px;
+  width: 400px;
+  height: 200px;
+  border: 5px solid lightblue;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 40px;
+}
+h2{
+  text-align: center;
+  margin-top: 12%;
+  font-size: 2.5em;
+}
+
+.box{
+  background-image: 
+    url(https://mdn.github.io/shared-assets/images/examples/star.png),
+    url(https://mdn.github.io/shared-assets/images/examples/star.png),
+    url(https://mdn.github.io/shared-assets/images/examples/star.png),
+    url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 50px,50px,50px,50px;
+  background-position: 20px center, 330px center, 330px 30px, 330px 120px;
+}

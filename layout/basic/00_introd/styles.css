@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 20%;
+}
+
+img:first-of-type{
+  width: 30%;
+  display: block;
+  background-color: aquamarine;
+}

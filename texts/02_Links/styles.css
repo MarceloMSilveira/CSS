@@ -1,0 +1,21 @@
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+a:visited{
+  color: greenyellow;
+}
+
+a:active{
+  color: brown;
+}
+
+a:hover{
+  /* cursor: move; */
+  outline: 1px dashed   olive;
+}
+
+a:focus{
+  outline: 2px dotted lawngreen;
+}

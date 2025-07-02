@@ -1,0 +1,36 @@
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/* link visited focus hove active */
+/* LoVe Fears HAte - link visited focus hove active */
+
+a:link{
+  color: rgb(0, 0, 100);
+}
+
+a:visited{
+  color: rgb(0,0,250)
+}
+
+a:focus{
+  outline: 1px dashed;
+  text-decoration: none;
+}
+
+a:hover{
+  outline: 2px dotted;
+  text-decoration: none;
+}
+
+a:active{
+  color: green;
+  text-decoration: none;
+}

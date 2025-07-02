@@ -1,0 +1,37 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 3px lightgray;
+
+}
+
+h1 + p {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  text-indent: 5%;
+}
+
+p::first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.shadow7 {
+        text-shadow: 0 0 20px #fefcc9,
+                     10px -10px 30px #feec85,
+                     -20px -20px 40px #ffae34,
+                     20px -30px 35px #ec760c,
+                     -20px -40px 40px #cd4606,
+                     0 -50px 65px #973716,
+                     10px -70px 70px #451b0e;
+	  }

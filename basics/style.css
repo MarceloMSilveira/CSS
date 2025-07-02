@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+.a {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+  background-size: 100% 100%;
+
+  
+}
+
+.b {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-color: beige;
+  background-repeat: no-repeat;
+  background-size: 60px 40px;
+  background-position: 20px top;
+  border: 1px solid;
+}
