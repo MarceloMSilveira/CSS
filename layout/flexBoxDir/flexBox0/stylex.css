@@ -1,0 +1,46 @@
+html {
+  background-color: white;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  max-width: 1600px;
+  background-color: antiquewhite;
+  margin: 20px auto;
+  padding: 20px;
+}
+header {
+  background: purple;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+section {
+  zoom: 0.8;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 300px;
+  background-color: azure;
+  /* align-items: ; */
+  /* flex-wrap: wrap; */
+}
+article {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  /* min-width: 250px; */
+}
+/* Add your flexbox CSS below here */
+article:nth-of-type(2) {
+  /* flex: 1 1 auto; */
+  flex: 1 1 0%;
+  align-self: flex-end;
+}
