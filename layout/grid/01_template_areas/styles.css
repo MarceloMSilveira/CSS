@@ -7,6 +7,7 @@ body{
   max-width: 1200px;
   margin: 10px auto;
   height: 85vh;
+  font-weight: bold;
 }
 
 .div-for-all{
@@ -25,10 +26,31 @@ body{
 .header{
   grid-area: header;
   background-color: azure;
+  display: grid;
+  width: 100%;
+  grid-template-areas: 
+  "a1 a2"
+  ;
+  grid-template-columns: 20% 1fr;
+  column-gap: 20px;
 }
 
 .main{
   grid-area: main;
-  background-color: brown;
+  background-color: azure;
   height: 100%;
+}
+
+.a1{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a2{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
