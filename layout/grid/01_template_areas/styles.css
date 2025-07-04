@@ -1,0 +1,34 @@
+html{
+  background-color: white;
+}
+body{
+  background-color: antiquewhite;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 10px auto;
+  height: 85vh;
+}
+
+.div-for-all{
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem 1fr;
+  grid-template-areas: 
+  "header"
+  "main";
+  row-gap: 2rem;
+}
+
+.header{
+  grid-area: header;
+  background-color: azure;
+}
+
+.main{
+  grid-area: main;
+  background-color: brown;
+  height: 100%;
+}
